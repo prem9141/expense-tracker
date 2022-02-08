@@ -2,7 +2,7 @@
   "name": "expensetracker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://prem9141.github.io/expense-tracker/",
+  "homepage": "https://prem9141.github.io/expense-tracker",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
